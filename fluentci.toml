@@ -1,0 +1,11 @@
+[package]
+name = "cypress"
+version = "0.1.0"
+description = "CI/CD Plugin for Cypress"
+license = "MIT"
+keywords = [
+  "e2e testing"
+]
+authors = [
+  "Tsiry Sandratraina <tsiry.sndr@fluentci.io>"
+]
