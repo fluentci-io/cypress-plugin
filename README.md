@@ -1,6 +1,6 @@
-# Cue Plugin
+# Cypress Plugin
 
-[![ci](https://github.com/fluentci-io/cue-plugin/actions/workflows/ci.yml/badge.svg)](https://github.com/fluentci-io/cue-plugin/actions/workflows/ci.yml)
+[![ci](https://github.com/fluentci-io/cypress-plugin/actions/workflows/ci.yml/badge.svg)](https://github.com/fluentci-io/cypress-plugin/actions/workflows/ci.yml)
 
 This plugin sets up your CI/CD pipeline with [Cypress](https://www.cypress.io/).
 
