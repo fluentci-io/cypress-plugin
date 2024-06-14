@@ -4,7 +4,7 @@ use fluentci_pdk::dag;
 #[plugin_fn]
 pub fn run(args: String) -> FnResult<String> {
     dag().call(
-        "https://pkg.fluentci.io/bun@v0.1.0?wasm=1",
+        "https://pkg.fluentci.io/bun@v0.7.1?wasm=1",
         "setup",
         vec!["latest"],
     )?;
@@ -18,7 +18,7 @@ pub fn run(args: String) -> FnResult<String> {
 #[plugin_fn]
 pub fn install(args: String) -> FnResult<String> {
     dag().call(
-        "https://pkg.fluentci.io/bun@v0.1.0?wasm=1",
+        "https://pkg.fluentci.io/bun@v0.7.1?wasm=1",
         "setup",
         vec!["latest"],
     )?;
@@ -32,7 +32,7 @@ pub fn install(args: String) -> FnResult<String> {
 #[plugin_fn]
 pub fn cache(args: String) -> FnResult<String> {
     dag().call(
-        "https://pkg.fluentci.io/bun@v0.1.0?wasm=1",
+        "https://pkg.fluentci.io/bun@v0.7.1?wasm=1",
         "setup",
         vec!["latest"],
     )?;
@@ -46,7 +46,7 @@ pub fn cache(args: String) -> FnResult<String> {
 #[plugin_fn]
 pub fn info(args: String) -> FnResult<String> {
     dag().call(
-        "https://pkg.fluentci.io/bun@v0.1.0?wasm=1",
+        "https://pkg.fluentci.io/bun@v0.7.1?wasm=1",
         "setup",
         vec!["latest"],
     )?;
@@ -60,7 +60,7 @@ pub fn info(args: String) -> FnResult<String> {
 #[plugin_fn]
 pub fn verify(args: String) -> FnResult<String> {
     dag().call(
-        "https://pkg.fluentci.io/bun@v0.1.0?wasm=1",
+        "https://pkg.fluentci.io/bun@v0.7.1?wasm=1",
         "setup",
         vec!["latest"],
     )?;
@@ -74,7 +74,7 @@ pub fn verify(args: String) -> FnResult<String> {
 #[plugin_fn]
 pub fn help(args: String) -> FnResult<String> {
     dag().call(
-        "https://pkg.fluentci.io/bun@v0.1.0?wasm=1",
+        "https://pkg.fluentci.io/bun@v0.7.1?wasm=1",
         "setup",
         vec!["latest"],
     )?;
@@ -88,7 +88,7 @@ pub fn help(args: String) -> FnResult<String> {
 #[plugin_fn]
 pub fn version(args: String) -> FnResult<String> {
     dag().call(
-        "https://pkg.fluentci.io/bun@v0.1.0?wasm=1",
+        "https://pkg.fluentci.io/bun@v0.7.1?wasm=1",
         "setup",
         vec!["latest"],
     )?;
