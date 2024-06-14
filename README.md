@@ -10,6 +10,7 @@ Add the following command to your CI configuration file:
 
 ```bash
 fluentci run --wasm cypress install
+fluentci run --wasm cypress run
 ```
 
 ## Functions
