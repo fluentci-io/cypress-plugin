@@ -55,8 +55,8 @@ Github Actions:
     wasm: true
     plugin: cypress
     args: |
-      help
-- name: Show cypress version
+      install
+- name: Run Cypress tests
   run: |
-    fluentci run --wasm cypress version
+    fluentci run --wasm cypress run
 ```
