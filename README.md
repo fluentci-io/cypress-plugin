@@ -1,5 +1,6 @@
 # Cypress Plugin
 
+[![fluentci pipeline](https://shield.fluentci.io/x/cypress)](https://pkg.fluentci.io/cypress)
 [![ci](https://github.com/fluentci-io/cypress-plugin/actions/workflows/ci.yml/badge.svg)](https://github.com/fluentci-io/cypress-plugin/actions/workflows/ci.yml)
 
 This plugin sets up your CI/CD pipeline with [Cypress](https://www.cypress.io/).
